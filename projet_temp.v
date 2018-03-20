@@ -23,4 +23,13 @@ Proof.
     apply H1.
 Qed.
 
+<<<<<<< HEAD
 (* En coq, not P = p -> false *)
+=======
+Theorem modDN_imply_Pierce : (forall (P : Prop), (~P -> P) -> P)
+                             -> (forall (P Q : Prop), ((P -> Q) -> P) -> P).
+Proof.
+  intros.
+  
+Qed.
+>>>>>>> 00e85d079641e974cef87d45fe3b169c1e270f46
